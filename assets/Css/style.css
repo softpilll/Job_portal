@@ -1,0 +1,332 @@
+/* Navbar section */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    line-height: 1.6;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .navbar .navbar-toggler{
+} */
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Smooch', cursive;
+    color: rgb(188, 32, 32);
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.3s;
+}
+.nav-item{
+    color:blue;
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0{
+    height: 52px;
+    width: 130px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(188, 32, 32);
+}
+.btn0:hover{
+    background-color: red;
+    transition: all 0.4s;
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid;
+}
+.btn1:hover{
+    background-color: red;
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.btn03{
+    height: 52px;
+    width: 120px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(188, 32, 32);
+}
+
+.btn03:hover{
+
+    background-color: red;
+}
+
+/* Main section */
+.main{
+    /* background: url(/assets/Img/main01.avif) no-repeat; */
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(38, 38, 96);
+}
+.main input{
+    height: 71px;
+    width: 70%;
+    outline: none;
+    border: none;
+    padding: 15px;
+}
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: rgb(188, 32, 32);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn2:hover{
+    background: red;
+    transition: all 0.4s;
+}
+
+/* Cate */
+
+.red{
+    color: red;
+    
+}
+.cate h1{
+    font-size: 2.3rem;
+    color: rgb(15, 15, 143);
+}
+.cate .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-box-shadow: 3px 4px 4px 6px #000000; 
+    box-shadow: 3px 4px 4px 6px #000000;
+}
+.button .btn3{
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(114, 110, 110);
+    background: transparent;
+    border-radius: 50px;
+    color:rgb(114, 110, 110) ;
+    transition: all 0.4s;
+}
+.btn3:hover{
+    background-color: rgb(79, 79, 216);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* Application process */
+.apply{
+    background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73));
+
+}
+.apply .card{
+    background: rgb(62, 62, 186);
+    color: white;
+}
+
+/* resume */
+.resume{
+    background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)), url(/assets/Img/2.jpeg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+
+.button .btn4{
+    height: 50vh;
+    width: 100%;
+    background: transparent;
+    border-radius: 2px;
+    transition: all 0.4s;
+
+}
+.btn4:hover{
+    background-color: rgb(79, 79, 216);
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+}
+
+/* footer     */
+
+.footer{
+    background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73));
+    color: white;
+}
+.footer p{
+    margin: 0;
+    
+}
+.link:hover{
+    color: rgb(183, 42, 42);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer button{
+    height: 45px;
+    width: 20%;
+    margin-left: -12px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgb(177, 62, 62);
+}
+.footer button:hover{
+    color: rgb(57, 57, 193);
+    transition: all 0.4s;
+
+}
+.span{
+    color: rgb(136, 39, 39);
+}
+.span:hover{
+    color: rgb(18, 18, 221);
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.card .card-body{
+    height: 220px;
+    width: 100%;
+}
+
+/* Testimonials */
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.lor{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.slider .bto{
+    background: rgb(230, 230, 230);
+    height: 100px;
+    width: 50px;
+    border: none;
+    outline: none;
+}
+
+/* Form */
+.container{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091__340.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: new Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 250px;
+}
+.container p{
+    color: white;
+    font-size: 17px;
+}
+.container h3{
+    font-size: 25px;
+    color: white;
+}
+.container .glyphicon-pencil{
+    font-size: 50px;
+    color: white;
+    float: right;
+}
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+}
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    color: white;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+small{
+    font-size: 18px;
+    color: white;
+}
+input[type="radio"]{
+    margin-top: 22px;
+}
+option{
+    color: gray;
+}
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.btn-warning{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-bottom: 20px;
+}
